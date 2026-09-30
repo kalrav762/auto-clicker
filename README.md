@@ -1,0 +1,37 @@
+TWIN AUTOCLICKER — KALRAV 726
+================================
+
+QUICK START
+1. Install Python 3.11+ from python.org if Python is not already installed.
+2. Open this folder.
+3. Double-click INSTALL_AND_RUN.bat.
+4. The installer creates a virtual environment, installs the keyboard package,
+   and launches the autoclicker.
+
+CONTROLS
+F6  Start/Stop
+F7  Exit
+
+SETTINGS
+Clicks per burst: number of mouse clicks sent in each burst.
+Interval (ms): delay between bursts.
+
+ABOUT THE "10 CLICKS / 1 MS" REQUEST
+The app supports an interval as low as 0.001 ms and burst sizes such as 10,
+but Windows and the target application control how many events are actually
+processed. Exact 10 clicks in exactly 1 millisecond cannot be guaranteed.
+
+WATERMARK
+KALRAV 726
+
+SAFETY
+Use only where automation is allowed. Some games/services prohibit automated
+input and may rate-limit or ban accounts.
+
+TROUBLESHOOTING
+- If INSTALL_AND_RUN.bat says Python is not installed, install Python 3.11+
+  and make sure "Add Python to PATH" is enabled, then run the installer again.
+- If F6 does not work in a particular application, run the autoclicker with
+  appropriate Windows permissions and make sure another program is not
+  capturing the hotkey.
+  
